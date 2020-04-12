@@ -1,0 +1,26 @@
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgb(115, 4, 167);
+    margin-bottom: 15px;
+    padding-bottom: 6px;
+}
+.contact p{
+    margin: 0;
+}
+.name{
+    flex-grow: 1;
+    font-size: 17px;
+    font-weight: 800;
+}
+.gender{
+    flex-grow: 1;
+    text-align: right;
+    padding-right: 5px;
+    color: rgb(115, 4, 167)
+}
+.phone{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 300;
+}
